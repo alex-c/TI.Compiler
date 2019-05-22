@@ -48,7 +48,8 @@ URM equivalent:
 1: SUB(R1,R2,R3)
 2: SUB(R2,R1,R4)
 3: if R3 != 0 goto 5
-4: if R4 == 0 goto 6
+4: if R4 == 0 goto 7
 5: α
-6: 
+6: goto 1
+7: 
 ```
