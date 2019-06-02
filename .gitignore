@@ -78,3 +78,5 @@ local.properties
 .scala_dependencies
 .worksheet
 
+# Compiler test output
+Compiler/test_programs/*.urm
