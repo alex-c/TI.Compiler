@@ -1,0 +1,8 @@
+PROG(in X1; out Y);
+var(H1);
+
+while H1 != X1 do begin
+    Y = Y + 1;
+    H1 = H1 + 1
+end;
+H1 = 0
